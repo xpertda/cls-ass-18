@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* head-sec */
+/* .contner{
+    width: 1200px;
+    margin: auto;
+} */
+
+.head-sec{
+    background: white;
+
+}
+.head-img img{
+    margin-left: 15px;
+}
+.head-menu ul {
+	list-style: none;
+	padding: 32px 47px;
+}
+.head-menu ul li{
+    display: inline-block;
+}
+.head-menu ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 21px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+/* bg-sec */
+.banner-sec {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #8b8c75b7;
+    
+}
+/* .banner-sec::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.541);
+    z-index: -1;
+} */
